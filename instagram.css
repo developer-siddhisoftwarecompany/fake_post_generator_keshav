@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .insta-post {
+    width: 420px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    background: #fff;
+  }
+  
+  .insta-header {
+    display: flex;
+    align-items: center;   /* ⭐ MAIN FIX */
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  
+  .insta-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  
+  .insta-username {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+  }
+  
+  .insta-image {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+  }
+  
+  .insta-body {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .insta-icons {
+    display: flex;
+    gap: 14px;
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  
+  .insta-likes {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .insta-caption span {
+    font-weight: 600;
+  }
+  
+  .insta-time {
+    font-size: 12px;
+    color: #8e8e8e;
+    margin-top: 4px;
+  }
+  .insta-image {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    background: #fafafa;
+  }
+  
