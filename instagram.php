@@ -2,7 +2,7 @@
 // Profile picture
 $avatar = "avatar.png";
 if(!empty($_FILES['profile_pic']['name'])){
-  $avatarPath = "../uploads/" . time() . "_avatar_" . $_FILES['profile_pic']['name'];
+  $avatarPath = $avatarPath = "uploads/" . time() . "_avatar_" . $_FILES['profile_pic']['name'];
   move_uploaded_file($_FILES['profile_pic']['tmp_name'], $avatarPath);
   $avatar = $avatarPath;
 }
@@ -10,7 +10,7 @@ if(!empty($_FILES['profile_pic']['name'])){
 // Post image
 $postImage = "post.jpg";
 if(!empty($_FILES['post_image']['name'])){
-  $postPath = "../uploads/" . time() . "_post_" . $_FILES['post_image']['name'];
+  $postPath   = "uploads/" . time() . "_post_" . $_FILES['post_image']['name'];
   move_uploaded_file($_FILES['post_image']['tmp_name'], $postPath);
   $postImage = $postPath;
 }
@@ -62,4 +62,5 @@ if(!empty($_FILES['post_image']['name'])){
 
 </body>
 </html>
+
 
