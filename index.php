@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="assets/css/style.css">
+ <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="bg-light">
@@ -25,7 +25,8 @@
 
     <!-- ================= FORM ================= -->
     <div class="col-md-5">
-    <form action="generate.php" method="POST" enctype="multipart/form-data">
+   
+<form action="generate.php" method="POST" enctype="multipart/form-data">
 
 
         <div class="mb-2">
@@ -104,7 +105,8 @@
 </div>
 
 <!-- JS -->
-<script src="assets/js/preview.js"></script>
+<script src="preview.js"></script>
 
 </body>
 </html>
+
