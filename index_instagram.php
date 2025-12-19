@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Instagram CSS -->
-  <link rel="stylesheet" href="assets/css/instagram.css">
+  <link rel="stylesheet" href="instagram.css">
 </head>
 
 <body class="bg-light">
@@ -67,12 +67,12 @@
 
     <!-- HEADER -->
     <div class="insta-header">
-      <img src="assets/images/avatar.png" class="insta-avatar" id="p-avatar">
+     <img src="avatar.png" class="insta-avatar" id="p-avatar">
       <span class="insta-username" id="p-username">username</span>
     </div>
 
     <!-- POST IMAGE (THIS WAS MISSING) -->
-    <img src="assets/images/post.jpg" class="insta-image" id="p-post-img">
+   <img src="post.jpg" class="insta-image" id="p-post-img">
 
     <!-- BODY -->
     <div class="insta-body">
@@ -102,6 +102,7 @@
   </p>
 </div>
 
-<script src="assets/js/insta_preview.js"></script>
+<script src="insta_preview.js"></script>
 </body>
 </html>
+
