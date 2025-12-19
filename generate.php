@@ -14,4 +14,4 @@ if(!empty($_FILES['profile_pic']['name'])){
   $avatar = $target;
 }
 
-include "templates/twitter.php";
+include "Twitter.php";
