@@ -3,7 +3,7 @@
 <head>
   <title>Generated Tweet</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/style.css">
+ <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-light">
 
@@ -11,7 +11,7 @@
 
   <div class="tweet">
     <div class="tweet-header">
-    <img src="../<?= $avatar ?>" class="tweet-avatar">
+   <img src="<?= $avatar ?>" class="tweet-avatar">
 
 
       <div>
@@ -43,3 +43,4 @@ This post is generated for educational/design purposes only.
 
 </body>
 </html>
+
