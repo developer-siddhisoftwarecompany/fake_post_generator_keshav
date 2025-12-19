@@ -1,6 +1,6 @@
 <?php
 // Profile picture
-$avatar = "../assets/images/avatar.png";
+$avatar = "avatar.png";
 if(!empty($_FILES['profile_pic']['name'])){
   $avatarPath = "../uploads/" . time() . "_avatar_" . $_FILES['profile_pic']['name'];
   move_uploaded_file($_FILES['profile_pic']['tmp_name'], $avatarPath);
@@ -8,7 +8,7 @@ if(!empty($_FILES['profile_pic']['name'])){
 }
 
 // Post image
-$postImage = "../assets/images/post.jpg";
+$postImage = "post.jpg";
 if(!empty($_FILES['post_image']['name'])){
   $postPath = "../uploads/" . time() . "_post_" . $_FILES['post_image']['name'];
   move_uploaded_file($_FILES['post_image']['tmp_name'], $postPath);
@@ -20,7 +20,7 @@ if(!empty($_FILES['post_image']['name'])){
 <html>
 <head>
   <title>Generated Instagram Post</title>
-  <link rel="stylesheet" href="../assets/css/instagram.css">
+<link rel="stylesheet" href="instagram.css">
 </head>
 
 <body class="bg-light">
@@ -62,3 +62,4 @@ if(!empty($_FILES['post_image']['name'])){
 
 </body>
 </html>
+
